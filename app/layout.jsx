@@ -2,6 +2,9 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Weight } from "lucide-react";
 
+// Header components : 
+import Header from "@/components/layout/Header";
+
 const jetBrains_Mono = JetBrains_Mono({ 
 	subsets: ["latin"] ,
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -16,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={jetBrains_Mono.variable}>{children}</body>
+			<body className={jetBrains_Mono.variable}>
+				<Header/>
+				{children}
+			</body>
 		</html>
 	);
 }
