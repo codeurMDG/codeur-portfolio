@@ -2,9 +2,10 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Weight } from "lucide-react";
 
-// Header components : 
+//components : 
 import Header from "@/components/layout/Header";
-import PageTransition from "@/components/layout/PageTransition";
+import PageTransition from "@/components/transition/PageTransition";
+import StairTransition from "@/components/transition/StairTransition";
 
 const jetBrains_Mono = JetBrains_Mono({ 
 	subsets: ["latin"] ,
@@ -22,11 +23,8 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<body className={jetBrains_Mono.variable}>
 				<Header/>
-
-				<PageTransition>
-					{children}
-				</PageTransition>
-
+				<StairTransition/>
+				<PageTransition>{children}</PageTransition>
 			</body>
 		</html>
 	);
