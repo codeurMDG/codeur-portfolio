@@ -1,6 +1,9 @@
-import Social from "@/components/icons/Social"
 import { Button } from "@/components/ui/button"
 import { FiDownload } from "react-icons/fi"
+
+// Components : 
+import Social from "@/components/icons/Social"
+import Photo from "@/components/photos/Photo"
 
 const Home = () => {
     return (
@@ -30,7 +33,9 @@ const Home = () => {
                     </div>
 
                     {/* Photo */}
-                    <div>Photo</div>
+                    <div>
+                        <Photo />
+                    </div>
                 </div>
             </div>
         </section>
