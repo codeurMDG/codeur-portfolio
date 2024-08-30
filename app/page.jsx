@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi"
 // Components : 
 import Social from "@/components/icons/Social"
 import Photo from "@/components/photos/Photo"
+import Stats from "@/components/layout/Stats"
 
 const Home = () => {
     return (
@@ -38,6 +39,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <Stats/>
         </section>
     )
 }
