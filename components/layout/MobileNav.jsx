@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { CiMenuFries } from "react-icons/ci"
 import links from "../path/links"
+import Logo from "../Logo"
 
 
 const MobileNav = () => {
@@ -18,8 +19,8 @@ const MobileNav = () => {
                 {/* Logo */}
                 <div className="mt-32 mb-40 text-center text-2xl">
                     <Link href="/">
-                        <h1 className="text-4xl font-semibold">
-                            CodeurMDG<span className="text-accent">.</span>
+                        <h1 className="flex items-center justify-center">
+                            <Logo/>
                         </h1>
                     </Link>
                 </div>
