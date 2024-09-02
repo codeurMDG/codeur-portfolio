@@ -30,9 +30,9 @@ const Services = () => {
 									</Link>
 								</div>
 								{/* title */}
-								<h2>{ service.title }</h2>
+								<h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{ service.title }</h2>
 								{/* Description */}
-								<p>{ service.description }</p>
+								<p className="text-white/60">{ service.description }</p>
 								{/* Border */}
 								<div className="border-b border-white/20 w-full"></div>
 							</div>
