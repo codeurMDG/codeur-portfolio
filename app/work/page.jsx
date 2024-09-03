@@ -15,6 +15,15 @@ import projects from "@/components/path/projects"
 
 const Work = () => {
 	const [project, setProject] = useState(projects[0])
+
+	const handleSlideChange = (swiper) => {
+		// get current slide index
+		const currentIndex = swiper.activeIndex
+
+		// update project state based on current slide index
+		setProject(projects[currentIndex])
+	}
+
 	return (
 		<motion.section 
 			initial={{opacity: 0}}
@@ -74,7 +83,27 @@ const Work = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full xl:w-[50%]">Slider</div>
+					<div className="w-full xl:w-[50%]">
+						<Swiper 
+							spaceBetween={30} 
+							slidesPerView={1} 
+							className="xl:h-[520px] mb-12"
+							onSlideChange={handleSlideChange}
+						>
+							{projects.map((project, index) => {
+								return <SwiperSlide key={index} className="w-full">
+									<div className="h-[460px] realative group flex justify-center items-center bg-pink-50/20">
+										{/* overlay */}
+										<div></div>
+										{/* image */}
+										<div className="w-full h-full relative">
+											<Image src={project.image} fill className="object-cover" alt="work"/>
+										</div>
+									</div>
+								</SwiperSlide>
+							})}
+						</Swiper>
+					</div>
 				</div>
 			</div>
 		</motion.section>
