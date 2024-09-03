@@ -6,4 +6,12 @@
     body {
         @apply font-primary bg-primary text-white leading-loose;
     }
+
+    .text-outline {
+        -webkit-text-stroke: 1px #ffffff;
+    }
+    
+    .text-outline-hover {
+        -webkit-text-stroke: 1px #fad02c;
+    }
 }
