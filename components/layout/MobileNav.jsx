@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { CiMenuFries } from "react-icons/ci"
 import links from "../path/links"
-import Logo from "../Logo"
+import Logo from "../icons/Logo"
 
 
 const MobileNav = () => {

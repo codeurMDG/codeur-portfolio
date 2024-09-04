@@ -4,7 +4,7 @@ import { Button } from "../ui/button"
 // Nav Components : 
 import Nav from "./Nav"
 import MobileNav from "./MobileNav"
-import Logo from "../Logo"
+import Logo from "../icons/Logo"
 
 const Header = () => {
 	return (
