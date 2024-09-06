@@ -30,33 +30,33 @@ const Contact = () => {
 					{/* form */}
 					<div className="xl:w-[54%] order-2 xl:order-none">
 						<form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-							<h3 className="text-4xl text-accent">Let&apos;s work together</h3>
-							<p className="text-white/60">Lorem ipsum odor amet, consectetuer adipiscing elit. Mus phasellus aptent commodo vehicula blandit torquent semper ullamcorper. Egestas mus at rhoncus aptent sagittis tincidunt amet.</p>
+							<h3 className="text-4xl text-accent">Travaillons ensemble</h3>
+							<p className="text-white/60">Pour collaborer, veuillez remplir le formulaire ci-dessous ou nous contacter par e-mail.</p>
 							{/* input */}
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-								<Input type="firstname" placeholder="Firstname"/>
-								<Input type="lastname" placeholder="Lastname"/>
-								<Input type="email" placeholder="Email address"/>
-								<Input type="phone" placeholder="Phone number"/>
+								<Input type="firstname" placeholder="Nom"/>
+								<Input type="lastname" placeholder="Prénom"/>
+								<Input type="email" placeholder="Adresse e-mail"/>
+								<Input type="phone" placeholder="Téléphone"/>
 							</div>
 							{/* select */}
 							<Select>
 								<SelectTrigger className="w-full">
-									<SelectValue placeholder="Select as service"/>
+									<SelectValue placeholder="Sélectionné nos services"/>
 								</SelectTrigger>
 								<SelectContent>
 									<SelectGroup>
-										<SelectLabel>Select a service</SelectLabel>
-										<SelectItem value="front">Frontend </SelectItem>
+										<SelectLabel>Sélectionné nos services</SelectLabel>
+										<SelectItem value="front">Front-end</SelectItem>
 										<SelectItem value="wordpress">Wordpress</SelectItem>
 										<SelectItem value="seo">SEO</SelectItem>
 									</SelectGroup>
 								</SelectContent>
 							</Select>
 							{/* Textarea */}
-							<Textarea className="h-[200px]" placeholder="Type your message here." />
+							<Textarea className="h-[200px]" placeholder="Tapez votre message ici." />
 							{/* Button */}
-							<Button size="md" className="max-w-40">Send message</Button>
+							<Button size="md" className="max-w-40">Envoyer</Button>
 						</form>
 					</div>
 					{/* info */}

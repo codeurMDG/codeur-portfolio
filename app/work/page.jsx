@@ -38,7 +38,7 @@ const Work = () => {
 							{/* Outline number */}
 							<div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
 							{/* project category */}
-							<h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
+							<h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.title}</h2>
 							{/* project description */}
 							<p className="text-white/60">{project.description}</p>
 							{/* project stack */}
@@ -59,7 +59,7 @@ const Work = () => {
 								<Link href={project.live}>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+											<TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
 												<BsArrowUpRight className="text-white text-3xl group-hover:text-accent"/>
 											</TooltipTrigger>
 											<TooltipContent>
@@ -72,7 +72,7 @@ const Work = () => {
 								<Link href={project.github}>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+											<TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
 												<BsGithub className="text-white text-3xl group-hover:text-accent"/>
 											</TooltipTrigger>
 											<TooltipContent>
