@@ -1,20 +1,20 @@
 
 const about = {
-    title: "About me",
-    description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend libero dictum faucibus odio magna. ",
+    title: "À propos",
+    description: "Basé à Madagascar, je suis spécialisé en développement web et WordPress. Avec un sens aigu du détail et un goût prononcé pour l’esthétique, je m’efforce de créer des sites web qui sont non seulement fonctionnels, mais aussi visuellement attrayants.",
     info: [
         {
-            fieldName: "Name",
+            fieldName: "Nom",
             fieldValue: "Codeur MDG",
 
         },
         {
-            fieldName: "Phone",
+            fieldName: "Tel",
             fieldValue: "(+261) 34 46 797 28",
             
         },
         {
-            fieldName: "Experience",
+            fieldName: "Expérience",
             fieldValue: "3+ Years",
             
         },
@@ -25,12 +25,12 @@ const about = {
         },
         {
             fieldName: "Freelance",
-            fieldValue: "Available",
+            fieldValue: "Disponible",
             
         },
         {
-            fieldName: "Languages",
-            fieldValue: "French , English",
+            fieldName: "Langue",
+            fieldValue: "Français , Anglais",
             
         },
     ]

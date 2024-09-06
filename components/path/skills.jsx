@@ -1,9 +1,9 @@
 import { FaHtml5, FaCss3, FaJs, FaPhp, FaReact } from "react-icons/fa"
-import { SiSass, SiWordpress, SiWebpack, SiNextdotjs, SiTailwindcss, SiBootstrap, SiElementor, SiMysql } from "react-icons/si"
+import { SiWordpress, SiWebpack, SiNextdotjs, SiTailwindcss, SiBootstrap, SiElementor, SiMysql } from "react-icons/si"
 
 const skills =  {
-    title: "My skills", 
-    description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend libero dictum faucibus odio magna.",
+    title: "Mes compétences", 
+    description: "Pour offrir des solutions web innovantes, j’utilise une variété de technologies. Voici un aperçu de mes compétences techniques :",
     skillList: [
         {
             icon: <FaHtml5/>,
@@ -36,10 +36,6 @@ const skills =  {
         {
             icon: <SiBootstrap/>,
             name: "bootstrap"
-        },
-        {
-            icon: <SiSass/>,
-            name: "sass"
         },
         {
             icon: <SiWebpack/>,
