@@ -1,26 +1,26 @@
 const services = [
     {
         num: "01",
-        title: "Web Development",
-        description: "Sweet soufflé pastry halvah jelly sweet. Macaroon icing danish halvah caramels candy canes.",
+        title: "Front-end",
+        description: "Développer des interfaces web centrées utilisateur, alliant esthétique et fonctionnalité.",
         href: ""
     },
     {
         num: "02",
-        title: "UI/UX Design",
-        description: "Sweet soufflé pastry halvah jelly sweet. Macaroon icing danish halvah caramels candy canes.",
+        title: "WordPress",
+        description: "Création de thèmes et plugins personnalisés, optimisation des performances et sécurité.",
         href: ""
     },
     {
         num: "03",
-        title: "Logo Design",
-        description: "Sweet soufflé pastry halvah jelly sweet. Macaroon icing danish halvah caramels candy canes.",
+        title: "Intégration",
+        description: "Intégration d'une maquette sur mesure via Figma avec Divi ou Elementor.",
         href: ""
     },
     {
         num: "04",
         title: "SEO",
-        description: "Sweet soufflé pastry halvah jelly sweet. Macaroon icing danish halvah caramels candy canes.",
+        description: "Optimisation pour les moteurs de recherche, amélioration de la visibilité en ligne.",
         href: ""
     },
 ]
