@@ -48,7 +48,8 @@ const Contact = () => {
 									<SelectGroup>
 										<SelectLabel>Sélectionné nos services</SelectLabel>
 										<SelectItem value="front">Front-end</SelectItem>
-										<SelectItem value="wordpress">Wordpress</SelectItem>
+										<SelectItem value="wordpress">Wordpress (Création thème ou plugin)</SelectItem>
+										<SelectItem value="integration">Intégration via Elementor ou Divi</SelectItem>
 										<SelectItem value="seo">SEO</SelectItem>
 									</SelectGroup>
 								</SelectContent>
