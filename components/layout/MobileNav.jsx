@@ -6,6 +6,7 @@ import Link from "next/link"
 import { CiMenuFries } from "react-icons/ci"
 import links from "../path/links"
 import Logo from "../icons/Logo"
+import { Button } from "../ui/button"
 
 
 const MobileNav = () => {
@@ -35,6 +36,7 @@ const MobileNav = () => {
                             {link.name}
                         </Link>
                     } )}
+                    <Link href="/contact">Me contacter</Link>
                 </nav>
             </SheetContent>
         </Sheet>
