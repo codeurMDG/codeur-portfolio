@@ -1,6 +1,6 @@
 const links = [
     {
-        name: "home",
+        name: "accueil",
         path: "/"
     },
     {
@@ -8,16 +8,12 @@ const links = [
         path: "/services"
     },
     {
-        name: "resume",
+        name: "à propos",
         path: "/resume"
     },
     {
-        name: "work",
-        path: "/work"
-    },
-    {
-        name: "contact",
-        path: "/contact"
+        name: "projets",
+        path: "/projets"
     },
 ]
 

@@ -14,7 +14,7 @@ import Image from "next/image"
 import projects from "@/components/path/projects"
 import WorkSliderBtns from "@/components/WorkSliderBtns"
 
-const Work = () => {
+const Projets = () => {
 	const [project, setProject] = useState(projects[0])
 
 	const handleSlideChange = (swiper) => {
@@ -117,4 +117,4 @@ const Work = () => {
 	)
 }
 
-export default Work
+export default Projets
