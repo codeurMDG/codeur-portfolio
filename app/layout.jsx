@@ -15,7 +15,30 @@ const jetBrains_Mono = JetBrains_Mono({
 
 export const metadata = {
 	title: "CodeurMDG",
-	description: "Votre partenaire de confiance pour la création d'un site web.",
+	description: "Votre partenaire de confiance pour la création de site web.",
+	keywords: "Développement web, création de site, codeur madagascar, WordPress, site wordPress, Création de site internet, Conception de site web, Développement web sur mesure, Solution web,Prestation web, Développeur web freelance,Webmaster, Consultant web,Agence web, Développement front-end, Développeur front-end, UI/UX design, Interface utilisateur, Expérience utilisateur, HTML, CSS, JavaScript, React, Next.js, Framework JavaScript, Bibliothèque JavaScript, Responsive design, Création de site WordPress, Thème WordPress, Plugin WordPress, Personnalisation WordPress, Développement WordPress sur mesure, Site vitrine, Référencement naturel, SEO",
+	// Pour les réseaux sociaux (Open Graph)
+	openGraph: {
+		title: "CodeurMDG - Création de sites web sur mesure", // Titre plus descriptif
+		description: "Faites confiance à CodeurMDG pour la conception et le développement de votre site internet.",
+		url: "https://votresite.com",
+		type: "website",
+		locale: "fr_FR",
+		site_name: "CodeurMDG",
+		image: {
+			url: "/assets/metadata/ContactUs.jpg", // Image optimisée pour les réseaux sociaux
+			alt: "Logo de CodeurMDG",
+			width: 1200,
+			height: 630
+		}
+	},
+	// Pour Twitter
+	twitter: {
+		card: 'summary_large_image',
+		title: "CodeurMDG",
+		description: "Votre partenaire de confiance pour la création de site web.",
+		image: "/assets/metadata/ContactUs.jpg"
+	}
 };
 
 export default function RootLayout({ children }) {
