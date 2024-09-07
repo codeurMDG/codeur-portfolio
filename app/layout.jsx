@@ -21,7 +21,7 @@ export const metadata = {
 	openGraph: {
 		title: "CodeurMDG - Création de sites web sur mesure", // Titre plus descriptif
 		description: "Faites confiance à CodeurMDG pour la conception et le développement de votre site internet.",
-		url: "https://votresite.com",
+		url: "https://codeur.vercel.app/",
 		type: "website",
 		locale: "fr_FR",
 		site_name: "CodeurMDG",
