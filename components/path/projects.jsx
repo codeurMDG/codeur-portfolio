@@ -25,7 +25,7 @@ const projects = [
         category: "WordPress",
         title: "Leslandines",
         description: "Les Landines Cabanes insolites est un site dédié à des hébergements uniques dans les Landes Girondines, près de Bordeaux. Il propose des cabanes perchées avec spa privatif pour une expérience immersive en pleine nature, avec possibilité de réserver des séjours ou d'offrir des bons cadeaux.",
-        stack: [{name: "Wix"}],
+        stack: [{name: "WordPress"}],
         image: "/assets/works/Leslandines.png",
         live: "https://www.leslandines.com/",
         github: "https://github.com/RovaFitia"
