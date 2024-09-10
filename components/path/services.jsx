@@ -8,7 +8,7 @@ const services = [
     {
         num: "02",
         title: "WordPress",
-        description: "Création de thèmes et plugins personnalisés, optimisation des performances et sécurité.",
+        description: "Création d'un site vitrine, création de thèmes et plugins personnalisés, optimisation des performances et sécurité.",
         href: "#"
     },
     {
